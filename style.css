@@ -1,0 +1,45 @@
+body{
+    font-family: monospace;
+    background-color: wheat;
+}
+.titles{
+   text-align: center;
+   font-size: 2rem;
+   background-color: cadetblue;
+  padding:13px;
+  border-radius: 10px;
+  color:white
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+.input-field{
+    display:block;
+    width: 100%;
+    margin-top: 10px;
+  padding: 10px;
+
+   border-radius: 5px;
+}
+table{
+    border-collapse: collapse;
+    border:teal;
+}
+
+th, td{ font-size: 1rem;
+    width: 30%;
+    padding: 7px;
+}
+#btn{
+    width: 80%;
+    background-color: yellow;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}

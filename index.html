@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="titles">Nazim's Favourite Books</h1>
+    </header>
+
+    <main>
+        <section class="container">
+
+            <input type="text" class="input-field" id="book" placeholder="Book Name">
+            <input type="text" class="input-field" id="author" placeholder="Author Name">
+            <input type="number" class="input-field" id="year" placeholder="Published Year">
+            <input type="number" class="input-field" id="price" placeholder="Enter Book Price">
+            <button id="btn">Add Your Book</button>
+
+        </section>
+
+        <section class="container">
+            <table border="1" id="book-list">
+                <thead>
+
+                    <th>Book Name</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                    <th>Price</th>
+                </thead>
+                <tr id="books">
+
+                </tr>
+            </table>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
